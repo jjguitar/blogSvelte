@@ -1,4 +1,8 @@
+<script>
+  import Nav from './Newsletter.svelte';
+import Newsletter from './Newsletter.svelte';
+</script>
+
 <div class="Sidebar">
-  <h4>Newsletter</h4>
-  <p>Recibe las últimas novedades osbre Frontend</p>
+  <Newsletter />
 </div>

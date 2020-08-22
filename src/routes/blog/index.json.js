@@ -2,8 +2,14 @@ import posts from './_posts.js';
 
 const contents = JSON.stringify(posts.map(post => {
 	return {
-		title: post.title,
-		slug: post.slug
+    title: post.title,
+    html: post.html,
+    slug: post.slug,
+    createdAt: post.createdAt,
+    id: post.id,
+    desc: post.desc,
+    tag: post.tag,
+    image: post.image,
 	};
 }));
 
