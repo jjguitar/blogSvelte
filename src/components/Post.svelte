@@ -1,4 +1,6 @@
 <script>
+  import readingTime from '../utils/readingTime';
+  import randomEmoji from '../utils/randomEmoji';
   export let post;
 </script>
 
@@ -51,14 +53,14 @@
     <div class="Post-head">
       <div class="Post-title">
         <h2>
-          <a rel="prefecth" href="blog/{post.slug}">{post.title}</a>
+          <a rel="prefecth" href="blog/{post.slug}">{randomEmoji()} {post.title}</a>
         </h2>
         <p>
           <time datetime={post.createdAt}>
             {post.createdAt}
           </time>
           <span class="dot">.</span>
-          <span>5 min</span>
+          <span>{readingTime(post.html)}</span>
         </p>
       </div>
       <div class="Post-tags" />
