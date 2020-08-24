@@ -21,7 +21,25 @@
 </style>
 
 <svelte:head>
-	<title>Jhoncito el pillo</title>
+  <title>Jhoncito el pillo</title>
+  <meta name="description" content="Blog de codejjguitar live" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@codejjguitar" />
+  <meta name="twitter:creator" content="@codejjguitar" />
+  <meta name="twitter:title" content="Jhoncito el pillo" />
+  <meta name="twitter:description" content="Blog de codejjguitar live" />
+  <meta name="twitter:image" content="https://arepa.s3.amazonaws.com/blogpost-cover.png" />
+
+  <meta name="og:url" content="https://codejjguitar.live" />
+  <meta name="og:site_name" content="Jhoncito el pillo" />
+  <meta name="og:locale" content="es_ES" />
+  <meta name="og:title" content="Jhoncito el pillo" />
+  <meta name="og:description" content="Blog de codejjguitar live" />
+  <meta name="og:type" content="article" />
+  <meta name="og:image" content="https://arepa.s3.amazonaws.com/blogpost-cover.png" />
+  <meta name="fb:app_ide" content="" />
+  
 </svelte:head>
 
 <div class="Home">
