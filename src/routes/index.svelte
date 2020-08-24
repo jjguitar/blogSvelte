@@ -21,7 +21,7 @@
 </style>
 
 <svelte:head>
-  <title>Jhoncito el pillo</title>
+  <title>Jhon Jairo Trillos</title>
   <meta name="description" content="Blog de codejjguitar live" />
 
   <meta name="twitter:card" content="summary_large_image" />

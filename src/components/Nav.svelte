@@ -5,9 +5,9 @@
 <style>
 
   .Nav {
-    border-bottom: 1px solid rgba(255, 0, 121, 0.2);
+    border-bottom: 1px solid rgba(255, 121, 46, 0.1);
     font-weight: 300;
-    background-color: #fafbfc;
+    background-color: rgba(255, 171, 59, 0.05);
     color: #191a22;
     padding: 0 1em;
   }
@@ -50,7 +50,7 @@
     content: '';
     width: calc(100% - 1em);
     height: 2px;
-    background-color: rgb(255, 62, 0);
+    background-color: #ff792e;
     display: block;
     bottom: -1px;
   }

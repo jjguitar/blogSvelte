@@ -15,6 +15,7 @@
     padding: 0;
     width: 100%;
     box-sizing: border-box;
+    outline-color: #ff792e;
   }
 
   ::placeholder {
@@ -39,26 +40,27 @@
   }
 
   .btn {
-    box-shadow: inset 0px 1px 0px 0px #bee2f9;
-    background: linear-gradient(to bottom, #63b9ee 5%, #468ccf 100%);
-    background-color: #63b9ee;
+    box-shadow: inset 0px 1px 0px 0px #ffab3b;
+    background: linear-gradient(to bottom, #fff23e 5%, #ffd12f 100%);
+    background-color: #fff23e;
     border-radius: 6px;
-    border: 1px solid #3866a3;
+    border: 1px solid #ffab3b;
     display: inline-block;
     cursor: pointer;
-    color: #14396a;
+    color: #ff792e;
     font-family: 'Arial';
     font-size: 15px;
     font-weight: bold;
     padding: 6px 24px;
     text-decoration: none;
-    text-shadow: 0px 1px 0px #7cacde;
+    text-shadow: 0px 1px 0px #ffd12f;
     width: 100%;
+    outline-color: #ff792e;
   }
 
   .btn:hover {
-    background: linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
-    background-color: #468ccf;
+    background: linear-gradient(to bottom, #ffd12f 5%, #fff23e 100%);
+    background-color: #ffd12f;
   }
 
   .btn:active {

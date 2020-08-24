@@ -3,7 +3,7 @@
 </script>
 <style>
   .Header {
-    background-color: #fafbfc;
+    background-color:rgba(255, 171, 59, 0.05);
     color: #191a22;
     padding: 1em 1em 0;
   }
@@ -55,9 +55,22 @@
   }
 
   .Header-social img {
-    width: 20px;
+    width: 30px;
   }
 
+  .Header-logo h1 {
+    margin: 0;
+  }
+
+  .Header-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .Header-logo img {
+    margin-right: 1em;
+    border-radius: 5px;
+  }
 
 </style>
 
@@ -65,9 +78,10 @@
   <div class="Header-container">
     <div class="Header-content">
       <div class="Header-logo">
+        <img src="codejjguitar-black.png" alt="logo" width="50" />
         <h1>
-          Jhoncito el pillo
-          <span>Frontend</span>
+          Jhon Jairo Trillos
+          <span>Frontend & tech lover</span>
         </h1>
       </div>
       <div class="Header-social">
@@ -79,7 +93,7 @@
           </li>
           <li>
             <a href="https://www.facebook.com/jhonjatr/" target="_blank" rel="noreferrer" on:click={analyticsTracking('facebook')}>
-              <img src="facebook-icon.png" alt="Facebook">
+              <img src="facebook-icon.png" alt="Facebook" >
             </a>
           </li>
           <li>
