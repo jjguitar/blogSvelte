@@ -1,0 +1,59 @@
+
+  <?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://codejjguitar.live</loc>
+        <lastmod>Mon, 24 Aug 2020 04:13:21 GMT</lastmod>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://codejjguitar.live/blog/test-svelte</loc>
+        <lastmod>Mon, 24 Aug 2020 02:20:16 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://codejjguitar.live/blog/welcome</loc>
+        <lastmod>Mon, 24 Aug 2020 01:40:04 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://codejjguitar.live/blog/the-editor</loc>
+        <lastmod>Mon, 24 Aug 2020 01:40:04 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://codejjguitar.live/blog/publishing-options</loc>
+        <lastmod>Mon, 24 Aug 2020 01:40:04 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://codejjguitar.live/blog/admin-settings</loc>
+        <lastmod>Mon, 24 Aug 2020 01:40:04 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://codejjguitar.live/blog/organising-content</loc>
+        <lastmod>Mon, 24 Aug 2020 01:40:04 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://codejjguitar.live/blog/apps-integrations</loc>
+        <lastmod>Mon, 24 Aug 2020 01:40:04 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://codejjguitar.live/blog/themes</loc>
+        <lastmod>Mon, 24 Aug 2020 01:40:04 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+  </urlset>
+  
