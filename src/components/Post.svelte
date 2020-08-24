@@ -2,6 +2,7 @@
   import readingTime from '../utils/readingTime';
   import randomEmoji from '../utils/randomEmoji';
   import FormatIsoTime from '../utils/FormatIsoTime';
+  import getTags from '../utils/getTags';
   export let post;
 </script>
 
@@ -44,9 +45,20 @@
     word-break: break-word;
   }
 
-    .dot {
-      font-weight: 700;
-    }
+  .dot {
+    font-weight: 700;
+  }
+
+  .Post-tags {
+    font-size: 14px;
+  }
+
+  .Post-tags ul {
+    display: flex;
+  }
+  .Post-tags li a {
+    margin-right: 2em;
+  }
 </style>
 
 <div class="Post-item">
@@ -64,9 +76,20 @@
           <span>{readingTime(post.html)}</span>
         </p>
       </div>
-      <div class="Post-tags" />
       <div class="Post-desc">
         <p>{post.desc}</p>
+      </div>
+      <div class="Post-tags">
+        <!-- {getTags(post.tag)} -->
+        {#if post.tag}
+          <ul>
+            {#each post.tag as tag}
+              <li>
+                <a href="blog/{post.slug}">{tag.name}</a>
+              </li>
+            {/each}
+          </ul>
+        {/if}
       </div>
     </div>
   </div>

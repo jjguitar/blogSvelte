@@ -44,9 +44,9 @@ code {
   font-weight: 500;
   color: #191a22;
 }
-.content img {
+/* .content img {
   width: 100%;
-}
+} */
 .content pre {
   background-color: #f9f9f9;
   box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.05);
@@ -86,6 +86,10 @@ code {
   height: 0;
   overflow: hidden;
   margin: 0.4em 0 1.6em;
+}
+
+.content .kg-card img {
+  border-radius: 5px;
 }
 
 @media (min-width: 400px) {

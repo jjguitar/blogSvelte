@@ -133,7 +133,7 @@ const fetchData = async () => {
       "createdAt": post.created_at,
       "id": post.id,
       "desc": post.excerpt,
-      "tag": post.meta_title,
+      "tag": post.tags,
       "image": post.feature_image
     }
   });

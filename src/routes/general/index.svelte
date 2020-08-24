@@ -7,9 +7,8 @@
 </script>
 
 <script>
-  import Post from '../components/Post.svelte';
+  import Post from '../../components/Post.svelte';
   export let posts;
-  const filterPost = posts.filter(post => post.tag === 'general');
 </script>
 
 <style>
@@ -28,12 +27,16 @@
 <div class="General">
   <h1>General</h1>
   <div class="Post">
-    {#if filterPost.length >= 1}
-      {#each filterPost as post}
-      <Post {post} />
-      {/each}
-    {:else}
-      <p>Sin resultados</p>
-    {/if}
+    {#each posts as post}
+      {#if post.tag}
+        {#each post.tag as tag}
+          {#if tag.name  == 'general'}
+          <Post {post} />
+          {/if}
+          {:else}
+            <p>Sin resultados</p>
+        {/each}
+      {/if}
+    {/each}
   </div>
 </div>

@@ -62,7 +62,7 @@
     margin: 0;
   }
 
-  .Header-logo {
+  .Header-logo a {
     display: flex;
     align-items: center;
   }
@@ -78,11 +78,13 @@
   <div class="Header-container">
     <div class="Header-content">
       <div class="Header-logo">
-        <img src="codejjguitar-black.png" alt="logo" width="50" />
-        <h1>
-          Jhon Jairo Trillos
-          <span>Frontend & tech lover</span>
-        </h1>
+        <a href="/">
+          <img src="codejjguitar-black.png" alt="logo" width="50" />
+          <h1>
+            Jhon Jairo Trillos
+            <span>Frontend & tech lover</span>
+          </h1>
+        </a>
       </div>
       <div class="Header-social">
         <ul>
