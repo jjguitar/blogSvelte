@@ -3,8 +3,14 @@
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://codejjguitar.live</loc>
-        <lastmod>Mon, 24 Aug 2020 04:13:21 GMT</lastmod>
+        <lastmod>Mon, 24 Aug 2020 17:33:42 GMT</lastmod>
         <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://codejjguitar.live/blog/try-to-learn-something-new</loc>
+        <lastmod>Mon, 24 Aug 2020 17:25:35 GMT</lastmod>
+        <priority>0.80</priority>
     </url>
     
     <url>

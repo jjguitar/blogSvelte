@@ -22,11 +22,37 @@
         SveltePractico
       </generator>
       <lastBuildData>
-        Mon, 24 Aug 2020 04:13:21 GMT
+        Mon, 24 Aug 2020 17:33:42 GMT
       </lastBuildData>
       <atom:link href="https://codejjguitar.live/rss.xml" rel="self" type="application/rss+xml" />
       <ttl>60</ttl>
       
+      <item>
+        <title>
+          ![CDATA[Try to learn something new]]
+        </title>
+        <link>
+          https://codejjguitar.live/blog/try-to-learn-something-new/
+        </link>
+        <description>
+          ![CDATA[I always want to learn something new every day, but sometime it's difficult
+'cause  I just try things about tech.]]
+        </description>
+        <category>
+          ![CDATA[null]]
+        </category>
+        <dc:creator>
+          ![CDATA[Jhoncito el pillo]]
+        </dc:creator>
+        <pubDate>
+          Mon, 24 Aug 2020 17:25:35 GMT
+        </pubDate>
+        <media:content url="https://s3.amazonaws.com/gndx.dev/gndxdev.png" medium="image" />
+        <content:encoded>
+          ![CDATA[<p>I always want to learn something new every day, but sometime it's difficult 'cause  I just try things about tech.</p>]]
+        </content:encoded>
+      </item>
+    
       <item>
         <title>
           ![CDATA[Test Svelte]]
