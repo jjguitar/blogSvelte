@@ -76,27 +76,29 @@
       <div class="Nav-social">
         <ul>
           <li>
-            <a aria-current={segment === undefined ? 'page' : undefined} href=".">
-              home
+            <a
+            aria-current={segment === undefined ? 'page' : undefined} href=".">
+              Home
             </a>
           </li>
           <li>
-            <a aria-current={segment === 'about' ? 'page' : undefined} href="about">
-              about
+            <a
+            aria-current={segment === 'about' ? 'page' : undefined} href="about">
+              About
             </a>
           </li>
           <li>
             <a
               aria-current={segment === 'contact' ? 'page' : undefined}
               href="contact">
-              contact
+              Contact
             </a>
           </li>
           <li>
             <a
               aria-current={segment === 'general' ? 'page' : undefined}
               href="general">
-              general
+              General
             </a>
           </li>
           <li>
@@ -104,7 +106,7 @@
               rel="prefetch"
               aria-current={segment === 'blog' ? 'page' : undefined}
               href="blog">
-              blog
+              Blog
             </a>
           </li>
         </ul>

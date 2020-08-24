@@ -21,7 +21,7 @@
 </style>
 
 <svelte:head>
-	<title>Jhoncito el pillos</title>
+	<title>Jhoncito el pillo</title>
 </svelte:head>
 
 <div class="Home">

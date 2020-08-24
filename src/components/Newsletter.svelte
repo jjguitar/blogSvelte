@@ -17,6 +17,11 @@
     box-sizing: border-box;
   }
 
+  ::placeholder {
+    color: #d9d9d9;
+    padding-left: 5px;
+  }
+
   h4 {
     font-size: 16px;
   }
@@ -68,7 +73,7 @@
 
 <div class="Newsletter">
   <h4>NEWSLETTER</h4>
-  <p>Recibe las últimas novedades osbre Frontend en tu mail</p>
+  <p>Recibe las últimas novedades sobre Frontend en tu mail</p>
   <form
     action="https://tinyletter.com/codejjguitar"
     method="post"
@@ -76,10 +81,10 @@
     onsubmit="window.open('https://tinyletter.com/codejjguitar', 'popupwindow',
     'scrollbars=yes,width=800,height=600');return true">
     <p>
-      <label for="tlemail">Enter your email address</label>
+      <label for="tlemail">Correo electrónico:</label>
     </p>
     <p>
-      <input type="text" style="width:140px" name="email" id="tlemail" />
+      <input type="text" name="email" id="tlemail" placeholder="Tu correo electrónico" />
     </p>
     <input type="hidden" value="1" name="embed" />
     <button class="btn" type="submit" value="Subscribe" >Suscribirse</button>
