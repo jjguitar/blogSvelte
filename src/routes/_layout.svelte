@@ -10,6 +10,6 @@
 <Header />
 <Nav {segment}/>
 <Main>
-	<slot></slot>
+	<slot />
 </Main>
 <Footer />
