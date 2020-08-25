@@ -45,7 +45,7 @@
 
   .Header li {
     display: inline-block;
-    margin: 0 0.5em 0 0;
+    margin: 0;
   }
 
   .Header a {
@@ -55,7 +55,7 @@
   }
 
   .Header-social img {
-    width: 30px;
+    width: 20px;
   }
 
   .Header-logo h1 {

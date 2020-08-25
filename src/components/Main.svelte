@@ -19,11 +19,6 @@
     grid-gap: 60px;
     justify-content: space-between;
   }
-  @media (max-width: 800px) {
-	.Main-content {
-    grid-template-columns: 1fr;
-  }
-}
 </style>
 
 <main class="Main">
