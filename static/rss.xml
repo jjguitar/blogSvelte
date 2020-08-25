@@ -22,11 +22,43 @@
         SveltePractico
       </generator>
       <lastBuildData>
-        Mon, 24 Aug 2020 22:49:52 GMT
+        Tue, 25 Aug 2020 01:40:05 GMT
       </lastBuildData>
       <atom:link href="https://codejjguitar.live/rss.xml" rel="self" type="application/rss+xml" />
       <ttl>60</ttl>
       
+      <item>
+        <title>
+          ![CDATA[Por qué siendo electrónico me volví Frontend]]
+        </title>
+        <link>
+          https://codejjguitar.live/blog/por-que-siendo-electronico-me-volvi-frontend/
+        </link>
+        <description>
+          ![CDATA[Siendo colombiano desde muy chico quise estudiar ingeniería dado que era lo que
+podía cambiar mi realidad de pertenecer a un estatus promedio. Sin embargo, no
+tuve la orientación correcta para elegir la adecuada según ese momento.
+
+Tuve solamente dos oportunidades de conocer universidades y ver muy poco acerca
+de los pensum que me ofrecían, motivo por el cual tuve que escoger una carrera
+de manera muy apresurada. Si soy sincero, la carátula de un robot muy cool fue
+lo que me cautivo y me motivo ]]
+        </description>
+        <category>
+          ![CDATA[[object Object]]]
+        </category>
+        <dc:creator>
+          ![CDATA[Jhoncito el pillo]]
+        </dc:creator>
+        <pubDate>
+          Tue, 25 Aug 2020 00:49:55 GMT
+        </pubDate>
+        <media:content url="https://s3.amazonaws.com/gndx.dev/gndxdev.png" medium="image" />
+        <content:encoded>
+          ![CDATA[<p>Siendo colombiano desde muy chico quise estudiar ingeniería dado que era lo que podía cambiar mi realidad de pertenecer a un estatus promedio. Sin embargo, no tuve la orientación correcta para elegir la adecuada según ese momento.</p><p>Tuve solamente dos oportunidades de conocer universidades y ver muy poco acerca de los pensum que me ofrecían, motivo por el cual tuve que escoger una carrera de manera muy apresurada. Si soy sincero, la carátula de un robot muy cool fue lo que me cautivo y me motivo a estudiar ingeniería electrónica.</p><figure class="kg-card kg-image-card"><img src="https://jhoncitoelpillo.herokuapp.com/content/images/2020/08/robot-2301646_640.jpg" class="kg-image" alt srcset="https://jhoncitoelpillo.herokuapp.com/content/images/size/w600/2020/08/robot-2301646_640.jpg 600w, https://jhoncitoelpillo.herokuapp.com/content/images/2020/08/robot-2301646_640.jpg 640w"></figure><p>Lo sé, un motivo vacío y tal vez lo que hoy por hoy ha generado muchas repercusiones, aún así, doy gracias por la carrera que pude estudiar y lo que aprendí en ese tiempo, formo mi manera de pensar y la manera de ver este mundo.</p><p>Cuando termine mi carrera fue muy difícil conseguir un trabajo en esta área, pedían demasiada experiencia y aquellos que quizá aplicaba, no eran lo que esperaba.</p><p>Tuve un vaivén de trabajos, e incluso fui docente y pude adquirir otras habilidades que agradezco. Hace un par de años pude comenzar mi camino como ingeniero junior en el área de las fintech y con algo que vagamente conocí en mis días de universitario, JAVA, un lenguaje que aunque robusto, nunca me gusto y a la fecha aún le tengo recelo.</p><p>En mis años laborales tuve que aprender a programar en forma y dedicarme de lleno a esto y por cosas de la vida tuve que ayudar a diseñar una página, algo que hasta ese momento nunca me había interesado ni tenido la intención de hacer, en ello me sumergí en un mundo increíble y muy complejo, pero el cual, me presento a JavaScript, una palabra que por su iniciales quise huir de inmediato.</p><figure class="kg-card kg-image-card"><img src="https://jhoncitoelpillo.herokuapp.com/content/images/2020/08/javascript.jpg" class="kg-image" alt srcset="https://jhoncitoelpillo.herokuapp.com/content/images/size/w600/2020/08/javascript.jpg 600w, https://jhoncitoelpillo.herokuapp.com/content/images/2020/08/javascript.jpg 640w"></figure><p>Que equivocado estaba, y después de mucho leer y de lo bien que hablaban del mismo, decidí darle una oportunidad, comencé a ver todas las posibilidades que ofrecía vs lo que ya conocía y boom, mi mente cambio, este es un nuevo mundo como dicen los sabios de Pokemón. Me metí más y más en ello, y cada vez estaba más maravillado, que locura, que increíble, nunca vi la web de esa manera, y si tu mi amigo no lo conoces, te invito a que le des una oportunidad, conócelo junto a sus amigos HTML y CSS, y podrás ver todo lo que tiene para ofrecernos.</p><p>Si yo, ya siendo Senior en JAVA, decidí volcarme a este mundo de la web, donde cada cosa es única y el límite es hasta donde quieras llegar, veras que el Vainilla cumplirá todas tus necesidades, y conforme avances, mundos como React.JS o aún los más recientes como NEXT.JS o Gatsby.JS te van a sorprender.</p>]]
+        </content:encoded>
+      </item>
+    
       <item>
         <title>
           ![CDATA[Bienvenido]]
@@ -49,31 +81,6 @@
         <media:content url="https://s3.amazonaws.com/gndx.dev/gndxdev.png" medium="image" />
         <content:encoded>
           ![CDATA[<p>Hola, mi nombre es Jhon Trillos, ingeniero electrónico y Frontend developer.</p><p>Soy un apasionado por la tecnología y me encuentro en constante aprendizaje, en este blog podrás encontrar algunas de mis experiencias en este maravilloso mundo del desarrollo y la tecnología.</p><p>Estoy aquí para ayudarte, el conocimiento es mejor cuando lo compartimos.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://jhoncitoelpillo.herokuapp.com/content/images/2020/08/itsme.jpg" class="kg-image" alt srcset="https://jhoncitoelpillo.herokuapp.com/content/images/size/w600/2020/08/itsme.jpg 600w, https://jhoncitoelpillo.herokuapp.com/content/images/size/w1000/2020/08/itsme.jpg 1000w, https://jhoncitoelpillo.herokuapp.com/content/images/2020/08/itsme.jpg 1024w" sizes="(min-width: 720px) 720px"><figcaption>It's me with my awesome wife&nbsp;</figcaption></figure>]]
-        </content:encoded>
-      </item>
-    
-      <item>
-        <title>
-          ![CDATA[Creating a custom theme]]
-        </title>
-        <link>
-          https://codejjguitar.live/blog/themes/
-        </link>
-        <description>
-          ![CDATA[Ghost comes with a beautiful default theme designed for publishers which can easily be adapted for most purposes, or you can build a custom theme to suit your needs.]]
-        </description>
-        <category>
-          ![CDATA[[object Object]]]
-        </category>
-        <dc:creator>
-          ![CDATA[Jhoncito el pillo]]
-        </dc:creator>
-        <pubDate>
-          Mon, 24 Aug 2020 01:40:04 GMT
-        </pubDate>
-        <media:content url="https://s3.amazonaws.com/gndx.dev/gndxdev.png" medium="image" />
-        <content:encoded>
-          ![CDATA[<h2 id="ghost-themes">Ghost themes</h2><p>Ghost comes with a default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes.</p><p>If you need something a little more customised, it's entirely possible to build on top of existing open source themes, or to build your own from scratch. Rather than giving you a few basic settings which act as a poor proxy for code, we just let you write code.</p><h2 id="marketplace">Marketplace</h2><p>There are a huge range of both free and premium pre-built themes which you can download from the <a href="https://ghost.org/marketplace/">Ghost Theme Marketplace</a>:</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://static.ghost.org/v3.0.0/images/theme-marketplace.png" class="kg-image" alt="Ghost theme marketplace screenshot"><figcaption>Anyone can write a completely custom Ghost theme with some solid knowledge of HTML and CSS</figcaption></figure><h2 id="theme-development">Theme development</h2><p>Ghost themes are written with a templating language called handlebars, which has a set of dynamic helpers to insert your data into template files. For example: <code>{{author.name}}</code> outputs the name of the current author.</p><p>The best way to learn how to write your own Ghost theme is to have a look at <a href="https://github.com/TryGhost/Casper">the source code for Casper</a>, which is heavily commented and should give you a sense of how everything fits together.<br></p><ul><li><code>default.hbs</code> is the main template file, all contexts will load inside this file unless specifically told to use a different template.</li><li><code>post.hbs</code> is the file used in the context of viewing a post.</li><li><code>index.hbs</code> is the file used in the context of viewing the home page.</li><li>and so on</li></ul><p>We've got <a href="https://ghost.org/docs/api/handlebars-themes/">full and extensive theme documentation</a> which outlines every template file, context and helper that you can use. You can also get started with our useful <a href="https://github.com/TryGhost/Starter/">starter theme</a>, which includes the most common foundations and components required to build your own theme.</p><blockquote>If you want to chat with other people making Ghost themes to get any advice or help, there's also a <strong>themes</strong> section on our <a href="https://forum.ghost.org/c/themes">public Ghost forum</a>.</blockquote>]]
         </content:encoded>
       </item>
     

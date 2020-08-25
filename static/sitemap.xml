@@ -3,19 +3,19 @@
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://codejjguitar.live</loc>
-        <lastmod>Mon, 24 Aug 2020 22:49:52 GMT</lastmod>
+        <lastmod>Tue, 25 Aug 2020 01:40:05 GMT</lastmod>
         <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://codejjguitar.live/blog/por-que-siendo-electronico-me-volvi-frontend</loc>
+        <lastmod>Tue, 25 Aug 2020 00:49:55 GMT</lastmod>
+        <priority>0.80</priority>
     </url>
     
     <url>
         <loc>https://codejjguitar.live/blog/bienvenido</loc>
         <lastmod>Mon, 24 Aug 2020 20:53:57 GMT</lastmod>
-        <priority>0.80</priority>
-    </url>
-    
-    <url>
-        <loc>https://codejjguitar.live/blog/themes</loc>
-        <lastmod>Mon, 24 Aug 2020 01:40:04 GMT</lastmod>
         <priority>0.80</priority>
     </url>
     
