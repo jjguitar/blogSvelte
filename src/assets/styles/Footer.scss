@@ -1,0 +1,59 @@
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 20px 20px;
+  width: 100%;
+  font-size: var(--paragraph__size);
+  background: black;
+  color: white;
+  border-top: 5px solid #2c0d0d;
+  .hero__social-media {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  span {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+}
+
+
+/* Arrow & Hover Animation */
+#more-arrows {
+	width: 75px;
+  height: 65px;
+  transform: rotate(180deg);
+  &:hover {
+    polygon {
+      fill: #FFF;
+      transition: all .2s ease-out;
+
+      &.arrow-bottom {
+        transform: translateY(-18px);
+      }
+
+      &.arrow-top {
+        transform: translateY(18px);
+      }
+    }
+  }
+}
+
+polygon {
+  fill: #FFF;
+  transition: all .2s ease-out;
+  &.arrow-middle {
+	  opacity: 0.75;
+	}
+	&.arrow-top {
+	  opacity: 0.5
+	}
+}
+
+.contact__me {
+  text-align: center;
+  margin-top: 15px;
+  font-size: var(--paragraph__size);
+}

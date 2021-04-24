@@ -1,31 +1,40 @@
 {
-  "name": "TODO",
-  "description": "TODO",
-  "version": "0.0.1",
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "index.js",
   "scripts": {
-    "build:complete": "npm-run-all -p data export",
-    "data": "node src/bin/index.js",
-    "dev": "sapper dev",
-    "build": "sapper build",
-    "export": "sapper export",
-    "start": "node __sapper__/build",
-    "cy:run": "cypress run",
-    "cy:open": "cypress open",
-    "test": "run-p --race dev cy:run"
+    "build": "webpack --mode production",
+    "start": "webpack serve --open --mode development"
   },
-  "dependencies": {
-    "compression": "^1.7.1",
-    "dotenv": "^8.2.0",
-    "node-fetch": "^2.6.0",
-    "polka": "next",
-    "sirv": "^1.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjguitar/website.git"
   },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "@codejjguitar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjguitar/website/issues"
+  },
+  "homepage": "https://github.com/jjguitar/website#readme",
   "devDependencies": {
-    "npm-run-all": "^4.1.5",
-    "sapper": "^0.28.0",
-    "svelte": "^3.17.3",
-    "svelte-loader": "^2.9.0",
-    "webpack": "^4.7.0",
-    "webpack-modules": "^1.0.0"
+    "@babel/core": "^7.13.16",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "favicons": "^6.2.1",
+    "favicons-webpack-plugin": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.5.0",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.35.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-shell-plugin-next": "^2.2.2"
   }
 }

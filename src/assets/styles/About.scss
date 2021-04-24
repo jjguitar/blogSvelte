@@ -1,0 +1,122 @@
+.about {
+  padding: 80px 30px 30px;
+  // padding-top: 60px;
+  line-height: 1.7;
+  letter-spacing: .1rem;
+  background: radial-gradient(50% 50% at 50% 50%,rgba(26,21,21,0) 0,rgba(37,4,4,.16) 100%),#fff;
+  background-position: center;
+  background-attachment: scroll;
+  .about__me_details {
+    margin: 0 auto;
+    max-width: 365px;
+  }
+  .about__me_details {
+    display: block;
+    a {
+      font-weight: bold;
+    }
+  }
+  .about__work {
+    display: flex;
+    flex-direction: column;
+    max-width:365px;
+    margin: 0 auto;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    font-size: var(--paragraph__size);
+    text-align: justify;
+    margin: 30px 0;
+  }
+  h2 {
+    position: relative;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 3px;
+    font-size: var(--title__main);
+    padding: 10px 35px;
+    width: 60%;
+    img {
+      position: absolute;
+      left: 0;
+      opacity: 0.4;
+    }
+  }
+  .line-divider {
+    background-color: black;
+  }
+  span::before {
+    color: black;
+  }
+  .hero__divider-container {
+    margin: 50px 0;
+  }
+  .about__details {
+    max-width: 365px;
+    margin-bottom: 60px;
+  }
+}
+
+.title__container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 150px;
+  height: 60px;
+  border: 5px solid #000;
+  border-radius: 30px 0 30px 0;
+  margin-bottom: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 3px;
+  font-size: var(--title__main);
+}
+
+@media (min-width: 820px) and (orientation: landscape) {
+  :root {
+    --title__main: 2.2rem;
+    --padding__border: 3rem;
+    --paragraph__size: 1.8rem;
+  }
+  .about {
+    padding: 80px 0px 30px;
+  }
+  .about-container__work {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin: 0 auto;
+    column-gap: 40px;
+    grid-template-areas: 'design development'
+    'maintenance maintenance';
+  }
+  .about__work:nth-child(1) {
+    grid-area: design;
+  }
+  .about__work:nth-child(2) {
+    grid-area: development;
+  }
+  .about__work:nth-child(3) {
+    grid-area: maintenance;
+  }
+  .about {
+    .about__work {
+      max-width: 100%;
+    }
+    .about__details {
+      max-width: 100%;
+    }
+    .about__work:nth-child(3) {
+      max-width: 380px;
+    }
+    .about__me_details {
+      max-width: 60%;
+    }
+  }
+}
