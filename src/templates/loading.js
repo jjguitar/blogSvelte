@@ -1,5 +1,5 @@
 import '../assets/styles/Loading.scss'
-import rocket from '../assets/img/rocket.png'
+import rocket from '../assets/img/codejjguitar.png'
 
 const loading = () => {
   return `
@@ -12,7 +12,7 @@ const loading = () => {
       <span style="--i:5;"></span>
 
       <div class="rocket">
-        <img src="${rocket}">
+        <img src="${rocket}" width="100" height="100">
       </div>
     </div>
   </div>

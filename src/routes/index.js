@@ -17,9 +17,6 @@ const router = async () => {
   loading.innerHTML = await Loading()
   header.innerHTML = await Header()
   iam.innerHTML = await Hero()
-  setTimeout(() => {
-    loading.classList.add('hide')
-  }, 300)
   about.innerHTML = await About()
   portfolio.innerHTML = await Portfolio()
   footer.innerHTML = await Footer()

@@ -5,7 +5,7 @@ const footer = () => {
   const loading = document.getElementById('loading')
   setTimeout(() => {
     loading.style.display = 'none'
-  },400)
+  },600)
   return `
     <a href="#hero">
       <svg id="more-arrows">
