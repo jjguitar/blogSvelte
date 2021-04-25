@@ -30,6 +30,7 @@ html {
   min-width:320px;
   font-size: 62.5%;
   scroll-behavior: smooth;
+  // overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
   /* color: white; */
 }
@@ -42,12 +43,14 @@ body {
 }
 
 body::-webkit-scrollbar {
-  background-color: transparent;
-  width: 0;
+  // background-color: transparent;
+  // width: 0;
+  display: none;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: transparent;
+  // background-color: transparent;
+  display: none;
 }
 
 .logo {
