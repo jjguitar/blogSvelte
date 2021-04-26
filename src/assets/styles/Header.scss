@@ -96,7 +96,7 @@ body::-webkit-scrollbar-thumb {
 
 .navbar {
   width: 100vw;
-  height: 270px;
+  height: 100vh;
   background: rgba(0, 0, 0, 0.95);
   position: fixed;
   top: 0;
@@ -114,7 +114,6 @@ body::-webkit-scrollbar-thumb {
 
 .nav-list {
   text-align: center;
-  margin-top: 45px;
 }
 
 .nav-item {

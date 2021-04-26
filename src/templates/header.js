@@ -28,6 +28,9 @@ const Header = () => {
       </div>
       <ul class="nav-list">
         <li class="nav-item">
+          <a href="#hero" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
           <a href="#about" class="nav-link">About me</a>
         </li>
         <li class="nav-item">

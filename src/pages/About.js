@@ -4,9 +4,6 @@ import tools from '../assets/img/tools.svg'
 import maintenance from '../assets/img/maintance.svg'
 
 const About = () => {
-  setTimeout(() => {
-    document.getElementById('loading').classList.add('hide')
-  }, 300)
   return `
     <div class="title__container">
       <h1 class="title">ABOUT ME</h1>
