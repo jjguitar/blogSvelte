@@ -8,6 +8,6 @@ window.onload = () => {
   router()
   document.getElementById('loading').classList.add('hide')
   setTimeout(() => {
-    loading.style.display = 'none'
+    document.getElementById('loading').style.display = 'none'
   },600)
 }
