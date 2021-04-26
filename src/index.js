@@ -3,9 +3,9 @@ import loading from './templates/loading.js'
 
 // window.addEventListener('load', router);
 
-window.onload = () => {
+window.onload = async () => {
   loading()
-  router()
+  await router()
   document.getElementById('loading').classList.add('hide')
   setTimeout(() => {
     document.getElementById('loading').style.display = 'none'
