@@ -47,7 +47,11 @@
 
 .rocket {
   position: relative;
-  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  color: #FFF;
+  top: 85px;
   text-align: center;
   animation: rocket 0.1s ease infinite;
   img {

@@ -12,7 +12,7 @@ const loading = () => {
       <span style="--i:5;"></span>
 
       <div class="rocket">
-        <img src="${rocket}" width="100" height="100">
+        <h1>@codejjguitar</h1>
       </div>
     </div>
   </div>

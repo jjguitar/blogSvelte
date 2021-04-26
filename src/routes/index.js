@@ -20,7 +20,13 @@ const router = async () => {
   about.innerHTML = await About()
   portfolio.innerHTML = await Portfolio()
   footer.innerHTML = await Footer()
-
+  // const loading = document.getElementById('loading')
+  // setTimeout(() => {
+  //   document.getElementById('loading').classList.add('hide')
+  // }, 300)
+  // setTimeout(() => {
+  //   loading.style.display = 'none'
+  // },600)
   menuDisplay()
 }
 

@@ -2,10 +2,6 @@ import '../assets/styles/Footer.scss'
 import Social from '../templates/socialMedia.js'
 
 const footer = () => {
-  const loading = document.getElementById('loading')
-  setTimeout(() => {
-    loading.style.display = 'none'
-  },600)
   return `
     <a href="#hero">
       <svg id="more-arrows">

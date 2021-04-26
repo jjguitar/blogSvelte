@@ -6,9 +6,6 @@ import pr3 from '../assets/img/pr3.PNG'
 import pr6 from '../assets/img/pr6.PNG'
 
 const Portfolio = () => {
-  setTimeout(() => {
-    document.getElementById('loading').classList.add('hide')
-  }, 300)
   return `
     <div class="portfolio__divider" style="background: linear-gradient(
       0deg,rgba(0,0,0,.5),rgba(19,19,19,.5) 75%,rgba(33,33,33,.5)), url(${portfolio}); background-repeat: no-repeat; background-position: center; background-size: cover;">
