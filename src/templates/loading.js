@@ -2,7 +2,8 @@ import '../assets/styles/Loading.scss'
 import rocket from '../assets/img/codejjguitar.png'
 
 const loading = () => {
-  return `
+  const loading = document.getElementById('loading')
+  let block = `
   <div class="loading">
     <div class="pulse">
       <span style="--i:1;"></span>
@@ -17,6 +18,8 @@ const loading = () => {
     </div>
   </div>
   `
+
+  loading.innerHTML = block
 }
 
 export default loading

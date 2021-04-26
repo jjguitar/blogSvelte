@@ -7,14 +7,14 @@ import Footer from '../templates/footer.js'
 import menuDisplay from '../utils/menuDisplay.js'
 
 const router = async () => {
-  const loading = document.getElementById('loading')
+  // const loading = document.getElementById('loading')
   const header = document.getElementById('header')
   const iam = document.getElementById('hero')
   const about = document.getElementById('about')
   const portfolio = document.getElementById('portfolio')
   const footer = document.getElementById('footer')
 
-  loading.innerHTML = await Loading()
+  // loading.innerHTML = await Loading()
   header.innerHTML = await Header()
   iam.innerHTML = await Hero()
   about.innerHTML = await About()
